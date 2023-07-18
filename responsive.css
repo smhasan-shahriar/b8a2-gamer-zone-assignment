@@ -67,6 +67,10 @@
   .play-instant-text {
     align-items: center;
   }
+  .games-section-container {
+    padding-top: 60px;
+    padding-bottom: 60px; 
+  }
   .game-card-container {
     gap: 10px;
   }
@@ -80,8 +84,11 @@
     font-size: 0.6rem;
     font-weight: 600;
   }
-  .games-section {
-    margin-top: -50px;
+  .play-instant {
+    margin-bottom: 90px;
+  }
+  .footer-container {
+    padding: 120px 10vw;
   }
   .footer-icon-container {
     gap: 68px;

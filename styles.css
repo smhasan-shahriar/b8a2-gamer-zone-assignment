@@ -169,22 +169,22 @@ nav a {
 }
 
 /* hover effect style */
-.card{
+.card {
   width: 342px;
-  height: 400px; 
+  height: 400px;
   position: relative;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); 
+  transform: translate(-50%, -50%);
 }
-.card img{
+.card img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   border-radius: 16px;
 }
 
-.overlay{
+.overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -195,31 +195,27 @@ nav a {
   background: black;
   cursor: pointer;
   border-radius: 16px;
-  border: 2px solid #f948b2
+  border: 2px solid #f948b2;
 }
-.content{
+.content {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
 }
-.content p{
+.content p {
   font-weight: 900;
-  color: #f948b2; 
+  color: #f948b2;
 }
 
-.img-hover img{
-  width: 48px; 
+.img-hover img {
+  width: 48px;
 }
 
-.card:hover .overlay{
-  opacity: 0.8; 
+.card:hover .overlay {
+  opacity: 0.8;
 }
-
-
-
-
 
 /* play instantly section */
 .play-instant {
@@ -295,7 +291,7 @@ nav a {
   gap: 16px;
   padding: 10px 20px 10px 10px;
   border-radius: 50px;
-  background: #fff; 
+  background: #fff;
 }
 .game-card-text {
   font-size: 1.25rem;
