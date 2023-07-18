@@ -5,6 +5,9 @@
   }
   .video-card-container {
     grid-template-columns: repeat(2, 1fr);
+    row-gap: 70px;
+    column-gap: 30px;
+    justify-content: center;
   }
   .video-container,
   .play-instant {
@@ -48,6 +51,7 @@
   }
   .video-card-container {
     grid-template-columns: 1fr;
+    gap: 70px;
   }
   .video-container,
   .play-instant {
@@ -63,14 +67,17 @@
   .play-instant-text {
     align-items: center;
   }
+  .game-card-container {
+    gap: 10px;
+  }
   .game-card {
     padding: 5px;
   }
   .game-card img {
-    width: 30px;
+    width: 18px;
   }
   .game-card-text {
-    font-size: 0.75rem;
+    font-size: 0.6rem;
     font-weight: 600;
   }
   .games-section {

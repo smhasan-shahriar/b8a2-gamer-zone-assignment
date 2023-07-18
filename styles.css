@@ -169,48 +169,57 @@ nav a {
 }
 
 /* hover effect style */
+.card{
+  width: 342px;
+  height: 400px; 
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+.card img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
 
-.middle {
-  transition: 0.5s ease;
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  background: black;
+  cursor: pointer;
+  border-radius: 16px;
+  border: 2px solid #f948b2
+}
+.content{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-.text img {
-  width: 48px;
-}
-.card-img-container {
-  position: relative;
-}
-.card-img-container:hover .test-img {
-  opacity: 0.3;
-}
-.card-img-container:hover .middle {
-  opacity: 1;
-}
-.text {
-  background-color: #04aa6d;
   color: white;
-  font-size: 16px;
-  width: 100%;
-  height: 100%;
-  font-size: 1.25rem;
-  border-radius: 16px;
-  background: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 0.6) 0%,
-    rgba(0, 0, 0, 0.6) 100%
-  );
+}
+.content p{
+  font-weight: 900;
+  color: #f948b2; 
 }
 
-.text p {
-  color: #ff42a5;
-  font-weight: 600;
+.img-hover img{
+  width: 48px; 
 }
+
+.card:hover .overlay{
+  opacity: 0.8; 
+}
+
+
+
+
 
 /* play instantly section */
 .play-instant {
@@ -259,8 +268,17 @@ nav a {
 }
 
 /* games section styles */
+.games-section-container {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .games-section {
-  max-width: 1440px;
+  max-width: 1490px;
   margin: 0 auto;
 }
 
@@ -275,7 +293,9 @@ nav a {
   display: flex;
   align-items: center;
   gap: 16px;
-  padding: 10px;
+  padding: 10px 20px 10px 10px;
+  border-radius: 50px;
+  background: #fff; 
 }
 .game-card-text {
   font-size: 1.25rem;
@@ -304,7 +324,6 @@ footer {
   flex-direction: column;
   align-items: center;
   gap: 50px;
-  margin-top: 120px;
 }
 
 .footer-link-container a {
