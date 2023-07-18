@@ -9,6 +9,7 @@
 /* shared style */
 body {
   font-family: "Work Sans", sans-serif;
+  color: #0b0223;
 }
 
 .pink {
@@ -22,7 +23,7 @@ nav {
 
 .nav-bar {
   max-width: 1440px;
-  padding: 38px 5vw; 
+  padding: 38px 5vw;
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
@@ -43,7 +44,7 @@ nav {
   display: flex;
   gap: 32px;
   align-items: center;
-  padding-left: 0; 
+  padding-left: 0;
 }
 
 nav a {
@@ -64,4 +65,63 @@ nav a {
   gap: 24px;
   align-items: center;
   justify-content: center;
+}
+
+/* banner styles */
+.banner {
+  max-width: 1440px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.banner-text-container,
+.banner-img-container {
+  width: 50%;
+}
+.banner-title-top {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.banner-title-bottom {
+  font-size: 5.9rem;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 24px;
+}
+
+.banner-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+.banner-info p {
+  color: #534c64;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.banner-img-container img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.banner-btn {
+  padding: 20px 40px;
+  border-radius: 48px;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-right: 24px;
+}
+
+.right-btn {
+  background: #4ec5f7;
 }
