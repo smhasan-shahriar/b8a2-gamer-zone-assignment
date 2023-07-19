@@ -35,6 +35,18 @@
     font-size: 1.1rem;
     font-weight: 600;
   }
+  .footer-container {
+    padding: 120px 27vw;
+  }
+  .footer-icon-container {
+    gap: 68px;
+  }
+  .footer-condition-container {
+    justify-content: space-between;
+  }
+  .footer-end {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -114,6 +126,9 @@
   }
   .footer-icon-container {
     gap: 68px;
+  }
+  .footer-condition-container {
+    justify-content: space-between;
   }
   .footer-end {
     flex-direction: column;
