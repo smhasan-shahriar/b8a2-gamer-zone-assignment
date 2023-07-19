@@ -17,6 +17,11 @@
   .nav-bar > ul {
     gap: 5px;
   }
+  .link-box {
+    max-width: 210px;
+    gap: 10px;
+    padding: 10px;
+  }
   .games-section-container {
     padding-top: 60px;
     padding-bottom: 60px;
