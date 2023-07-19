@@ -92,9 +92,9 @@ nav a {
 .banner-title-bottom {
   font-size: 5.9rem;
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   margin-bottom: 24px;
 }
 
@@ -186,9 +186,9 @@ nav a {
 }
 .video-title-part {
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .video-card-container {
@@ -271,9 +271,9 @@ nav a {
 }
 .play-title {
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 .play-description {
   color: #534c64;
