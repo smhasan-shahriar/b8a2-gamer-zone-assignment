@@ -6,7 +6,7 @@
   .video-card-container {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 70px;
-    column-gap: 30px;
+    column-gap: 15px;
     justify-content: center;
   }
   .video-container,
