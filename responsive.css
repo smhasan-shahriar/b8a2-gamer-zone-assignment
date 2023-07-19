@@ -3,6 +3,33 @@
     font-size: 1rem;
     padding: 15px 30px;
   }
+
+  .banner,
+  .we-are-gamer-section {
+    flex-direction: column;
+    gap: 62px;
+    padding: 38px 0;
+  }
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner-text-container,
+  .banner-img-container,
+  .we-are-gamer-text {
+    width: 100%;
+    text-align: center;
+  }
+  .banner-img-container {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  .banner-text-container,
+  .we-are-gamer-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .video-card-container {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 70px;
@@ -60,7 +87,8 @@
   }
   .nav-bar,
   .banner,
-  .play-instant {
+  .play-instant,
+  .we-are-gamer-section {
     flex-direction: column;
     gap: 62px;
     padding: 38px 0;
@@ -73,16 +101,20 @@
   }
   .banner-text-container,
   .banner-img-container,
-  .play-instant-text {
+  .play-instant-text,
+  .we-are-gamer-text {
     width: 100%;
     text-align: center;
   }
-  .banner-info-container,
   .banner-img-container {
-    padding-left: 6vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
   }
   .banner {
     flex-direction: column-reverse;
+  }
+  .gamer-btn {
+    margin-bottom: 60px;
   }
   .video-card-container {
     grid-template-columns: 1fr;

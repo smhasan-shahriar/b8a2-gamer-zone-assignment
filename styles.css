@@ -130,10 +130,46 @@ nav a {
   background: #4ec5f7;
 }
 
+/* optional part we are game section */
+.we-are-gamer-section {
+  display: flex;
+  max-width: 1440px;
+  padding: 95px 5vw;
+  color: #534c64;
+  margin: 0 auto;
+}
+.we-are-gamer-text {
+  text-align: right;
+}
+.we-are-gamer-section img {
+  width: 100%;
+}
+
+.we-are-gamer-section h3 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.we-are-gamer-section p {
+  font-size: 1.125rem;
+  max-width: 520px;
+  margin-top: 16px;
+}
+.more-weight {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.we-are-gamer-section h4 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.gamer-btn {
+  margin-right: 0;
+}
+
 /* video container section styles */
 .video-container {
   max-width: 1440px;
-  margin: 120px auto;
+  margin: 40px auto 120px;
   text-align: center;
 }
 
