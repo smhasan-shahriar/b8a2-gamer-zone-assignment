@@ -95,6 +95,7 @@ nav a {
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin-bottom: 24px;
 }
 
@@ -189,6 +190,7 @@ nav a {
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .video-card-container {
@@ -274,6 +276,7 @@ nav a {
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .play-description {
   color: #534c64;
